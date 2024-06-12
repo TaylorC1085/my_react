@@ -8,9 +8,13 @@ export default class Footer extends Component {
   render() {
     return (
         <>
+            <figure className="scrolltop" onClick={() => window.scrollTo({top: 0, behavior: 'smooth'})}>
+              <p><i class="arrow up"></i></p>
+            </figure>
             <footer>
                 <nav className='footer-nav'>
                     <p className='footer-text'>© 2024 Taylor Courchaine</p>
+                    
                     <a href='' className='footer-nav-item footer-nav-center-align'>about me</a>
                     <a href='' className='footer-nav-item footer-nav-center-align'>experience</a>
                     <a href='' className='footer-nav-item footer-nav-center-align'>contact</a>
