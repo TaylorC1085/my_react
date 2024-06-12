@@ -1,6 +1,9 @@
 import React, { Component } from 'react'
+<<<<<<< HEAD
 import Header from '../layouts/Header'
 import React, { Component } from 'react';
+=======
+>>>>>>> 006201d (Navigation completed)
 import Header from '../layouts/Header';
 import Footer from '../layouts/Footer';
 
