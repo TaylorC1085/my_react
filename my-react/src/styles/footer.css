@@ -1,0 +1,28 @@
+footer {
+    background-color: lightgray;
+    height: 80px;
+}
+
+.footer-text {
+    display: inline-block;
+    position: relative;
+    right: 17%;
+    color: white;
+}
+
+.footer-nav {
+    text-align: center;
+    height: 100%;
+    position: relative;
+    top: 19%;
+}
+
+.footer-nav .footer-text, .footer-nav .footer-nav-item {
+    color: grey;
+}
+
+.footer-nav-item.footer-nav-center-align {
+    position: relative;
+    padding-right: 2%;
+    left: 15%;
+}
