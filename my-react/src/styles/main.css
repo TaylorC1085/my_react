@@ -1,0 +1,174 @@
+/*FOOTER Styling*/
+footer {
+    background-color: lightgray;
+    height: 80px;
+}
+
+.footer-text {
+    display: inline-block;
+    position: relative;
+    right: 17%;
+    color: white;
+}
+
+.footer-nav {
+    text-align: center;
+    height: 100%;
+    position: relative;
+    top: 19%;
+}
+
+.footer-nav .footer-text, .footer-nav .footer-nav-item {
+    color: grey;
+}
+
+.footer-nav-item.footer-nav-center-align {
+    position: relative;
+    padding-right: 2%;
+    left: 15%;
+}
+
+.scrolltop {
+    height: 69px;
+    width: 69px;
+    background: lightgray;
+    margin: auto;
+    border-radius: 84px;
+    position: relative;
+    top: 37px;
+}
+.arrow {
+  border: solid grey;
+  border-width: 0 3px 3px 0;
+  display: inline-block;
+  padding: 3px;
+}
+.up { 
+  transform: rotate(-135deg);
+  -webkit-transform: rotate(-135deg);
+  position: absolute;
+  left: 43%;
+  top: 25%;
+}
+
+/*HEADER Styling*/
+header {
+    display: inline-flex;
+    width: 100%;
+    height: 100px;
+    background: black;
+}
+
+header .header-img {
+    position: relative;
+    top: 12%;
+    left: 3%;
+}
+
+.header-nav {
+    width: 100%;
+    text-align: center;
+    margin-top: 2%;
+}
+
+.nav-item.nav-center-align {
+    padding-right: 2%;
+}
+
+.nav-item.nav-right-align {
+    position: relative;
+    left: 36%;
+    padding-right: 1%;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+}
+
+/*CONTACT styling*/
+.contact-container {
+    text-align: center;
+    margin-top: 5%;
+}
+
+.contact-form label {
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+    margin-bottom: 1%;
+    font-size: 14px;
+}
+
+.contact-form {
+
+    position: relative;
+    left: 36%;
+}
+
+.contact-button {
+    width: 10.1%;
+    display: flex;
+    height: 40px;
+    border-radius: 12px 12px 12px 12px;
+}
+
+.contact-heading {
+    font-size: 55px;
+    position: relative;
+    left: 3%;
+}
+
+.form-container label {
+    display: flex;
+    padding-right: 5%;
+    font-size: 14px;
+}
+
+.form-container {
+    display: flex;
+}
+
+.contact-text input {
+    width: 33.5%;
+    height: 200px;
+}
+
+.submit-text {
+    text-align: center;
+    width: 100%;
+    height: 100%;
+    font-size: 19px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.contact-text-box {
+    width: 33.6%;
+    height: 200px;
+    margin-top: 5px;
+}
+
+.form-container label input {
+    border-radius: 4px 4px 4px 4px;
+    height: 30px;
+    margin-top: 5px;
+}
+
+/*HOMEPAGE styling */
+.home-section {
+    height: 500px;
+}
+
+.intro-wrapper {
+    position: relative;
+    left: 12%;
+    top: 46%;
+}
+
+.portrait {
+    position: absolute;
+    left: 39%;
+    bottom: 12%;
+}

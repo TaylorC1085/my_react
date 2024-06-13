@@ -2,7 +2,7 @@ import React, { Component } from 'react'
 import LinkedIn from '../images/linkedin.png'
 import Github from '../images/github.png'
 import Email from '../images/email.webp'
-import '../styles/footer.css'
+import '../styles/main.css'
 
 export default class Footer extends Component {
   render() {
