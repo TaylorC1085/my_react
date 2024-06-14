@@ -158,7 +158,7 @@ nav a {
 
 /*HOMEPAGE styling */
 .home-section {
-    height: 500px;
+    /* height: 500px; */
 }
 
 .intro-wrapper {
@@ -168,7 +168,7 @@ nav a {
 }
 
 .portrait {
-    position: absolute;
-    left: 39%;
-    bottom: 12%;
+    position: relative;
+    left: 40%;
+    bottom: 43%;
 }

@@ -4,6 +4,7 @@ import Github from '../images/github.png';
 import Email from '../images/email.webp';
 import '../styles/main.css';
 import { Link } from 'react-router-dom';
+import React, { useState, useEffect } from 'react';
 
 export default class Header extends Component {
   render() {

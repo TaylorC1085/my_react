@@ -26,7 +26,7 @@ export default class Home extends Component {
               </Link>
               
             </div>
-            <img className='portrait' src={TC} alt="me" height={300} width={200}></img>
+            <img className='portrait' src={TC} alt="me" height={400} width={300}></img>
             
             {/* <div class="background-elements">
               <p style={{position: "absolute", left: "64%", bottom: "36%", fontSize: "18px"}}>&lt;html&gt;</p>
@@ -46,7 +46,49 @@ export default class Home extends Component {
               <p style={{ position: 'absolute', left: '66%', bottom: '33%', fontSize: "18px"  }}>&lt;img&gt;</p>
 
             </div> */}
-            <Background/>
+            {/* <Background/> */}
+            <p>test</p>
+            <p>test</p>
+            <p>test</p>
+            <p>test</p>
+            <p>test</p>
+            <p>test</p>
+            <p>test</p>
+            <p>test</p>
+            <p>test</p>
+            <p>test</p>
+            <p>test</p>
+            <p>test</p>
+            <p>test</p>
+            <p>test</p>
+            <p>test</p>
+            <p>test</p>
+            <p>test</p>
+            <p>test</p>
+            <p>test</p>
+            <p>test</p>
+            <p>test</p>
+            <p>test</p>
+            <p>test</p>
+            <p>test</p>
+            <p>test</p>
+            <p>test</p>
+            <p>test</p>
+            <p>test</p>
+            <p>test</p>
+            <p>test</p>
+            <p>test</p>
+            <p>test</p>
+            <p>test</p>
+            <p>test</p>
+            <p>test</p>
+            <p>test</p>
+            <p>test</p>
+            <p>test</p>
+            <p>test</p>
+            <p>test</p>
+            <p>test</p>
+            <p>test</p>
           </div>
           
      
