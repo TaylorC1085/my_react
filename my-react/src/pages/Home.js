@@ -11,10 +11,10 @@ import JSLogo from '../images/js-logo.png';
 import HTMLLogo from '../images/html.png';
 import CSSLogo from '../images/css.png';
 import GithubLogo from '../images/githubtext.png';
-import JiraLogo from '../images/jira.png';
-import AboutImage from '../images/about.jpeg';
 import Background from '../layouts/Background';
 import { Link } from 'react-router-dom';
+import SwoopInComponent from '../components/SwoopInComponent';
+
 
 
 export default class Home extends Component {
@@ -32,14 +32,19 @@ export default class Home extends Component {
               </h6>
               <hr className='home-section-line'></hr>
               <div className='link-wrapper'>
-                <Link to='mailto:tcour10@hotmail.com'><button type='button' className='button-img email'><img src={Mail} alt='email'></img></button></Link>
-                <Link to='https://www.linkedin.com/in/taylor-courchaine1/'><button type='button' className='button-img linkedin'><img src={Linked} alt='linkedin'></img></button></Link>
-                <Link to='https://github.com/TaylorC1085'><button type='button' className='button-img github'><img src={Github} alt='github'></img></button></Link>
+                <SwoopInComponent
+                  item = {<Link to='mailto:tcour10@hotmail.com'><button type='button' className='button-img email'><img src={Mail} alt='email'></img></button></Link>}
+                  delay = {600}
+                />
+                <SwoopInComponent
+                  item = {<Link to='https://www.linkedin.com/in/taylor-courchaine1/'><button type='button' className='button-img linkedin'><img src={Linked} alt='linkedin'></img></button></Link>}
+                  delay = {500}
+                />
+                <SwoopInComponent
+                  item = {<Link to='https://github.com/TaylorC1085'><button type='button' className='button-img github'><img src={Github} alt='github'></img></button></Link>}
+                  delay = {400}
+                />
               </div>
-              
-              {/* <Link to='/about'>
-                <p className='btn-about'>About Me</p>
-              </Link> */}
               
             </div>
             {/* <img className='portrait' src={TC} alt="me" height={570} width={700}></img> */}
