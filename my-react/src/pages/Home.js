@@ -1,7 +1,18 @@
 import React, { Component } from 'react'
 import Header from '../layouts/Header';
 import Footer from '../layouts/Footer';
-import TC from '../images/tc.png';
+import TC from '../images/tc2.jpg';
+import Linked from '../images/linkedincustom.png';
+import Github from '../images/githubcustom.png';
+import Mail from '../images/emailcustom.png';
+import PythonLogo from '../images/python.png';
+import ReactLogo from '../images/react.png';
+import JSLogo from '../images/js-logo.png';
+import HTMLLogo from '../images/html.png';
+import CSSLogo from '../images/css.png';
+import GithubLogo from '../images/githubtext.png';
+import JiraLogo from '../images/jira.png';
+import AboutImage from '../images/about.jpeg';
 import Background from '../layouts/Background';
 import { Link } from 'react-router-dom';
 
@@ -14,81 +25,49 @@ export default class Home extends Component {
           <Header />
           <div className='home-section'>
             <div className='intro-wrapper'>
-              <h1>Taylor Courchaine</h1>
-              <p>bvfbb  uhfiuh uiurgurhgu ihruigh uhur ghurgh uigh uhgu 
-                <br></br> 
-                hguhrg iuhru huh uh iuhgirh uierhg uhrgiuhg uirgui uhuirgh uh
-                <br></br> 
-                hguhrg iuhru huh uh iuhgirh uierhg uhrgiuhg uirgui uhuirgh uh
-              </p>
-              <Link to='/about'>
-                <button>About Me</button>
-              </Link>
+              <h6 className='intro-home-title-small'>Hi, I'm</h6>
+              <h1 className='intro-home-title-large'>Taylor<br></br>Courchaine.</h1>
+              <h6 className='intro-home-title-small role'>
+                Front-End Developer
+              </h6>
+              <hr className='home-section-line'></hr>
+              <div className='link-wrapper'>
+                <Link to='mailto:tcour10@hotmail.com'><button type='button' className='button-img email'><img src={Mail} alt='email'></img></button></Link>
+                <Link to='https://www.linkedin.com/in/taylor-courchaine1/'><button type='button' className='button-img linkedin'><img src={Linked} alt='linkedin'></img></button></Link>
+                <Link to='https://github.com/TaylorC1085'><button type='button' className='button-img github'><img src={Github} alt='github'></img></button></Link>
+              </div>
+              
+              {/* <Link to='/about'>
+                <p className='btn-about'>About Me</p>
+              </Link> */}
               
             </div>
-            <img className='portrait' src={TC} alt="me" height={400} width={300}></img>
+            {/* <img className='portrait' src={TC} alt="me" height={570} width={700}></img> */}
             
-            {/* <div class="background-elements">
-              <p style={{position: "absolute", left: "64%", bottom: "36%", fontSize: "18px"}}>&lt;html&gt;</p>
-              <p style={{ position: 'absolute', left: '60%', bottom: '33%', fontSize: "18px" }}>height:110px;</p>
-              <p style={{ position: 'absolute', left: '62%', bottom: '30%', fontSize: "19px" }}>JavaScript</p>
-              <p style={{ position: 'absolute', left: '63%', bottom: '24%', fontSize: "18px"  }}>Python</p>
-              <p style={{ position: 'absolute', left: '61%', bottom: '27%', fontSize: "23px"  }}>CSS3</p>
-              <p style={{ position: 'absolute', left: '64%', bottom: '27%', fontSize: "18px"  }}>HTML5</p>
-              <p style={{ position: 'absolute', left: '66%', bottom: '33%', fontSize: "18px"  }}>jQuery</p>
-              <p style={{ color: 'rgb(0, 128, 255)', position: 'absolute', left: '61%', bottom: '21%', fontSize: "18px"  }}>color:#0080ff;</p>
+          </div>
 
-              <p style={{ position: 'absolute', left: '66%', bottom: '33%', fontSize: "18px"  }}>&lt;h1&gt;</p>
-              <p style={{ position: 'absolute', left: '66%', bottom: '33%', fontSize: "18px"  }}>&lt;span&gt;</p>
-              <p style={{ position: 'absolute', left: '66%', bottom: '33%', fontSize: "18px"  }}>&lt;p&gt;</p>
-              <p style={{ position: 'absolute', left: '66%', bottom: '33%', fontSize: "18px"  }}>&lt;header&gt;</p>
-              <p style={{ position: 'absolute', left: '66%', bottom: '33%', fontSize: "18px"  }}>&lt;body&gt;</p>
-              <p style={{ position: 'absolute', left: '66%', bottom: '33%', fontSize: "18px"  }}>&lt;img&gt;</p>
+          <div className='homepage-skills-wrapper'>
+            <h1 className='homepage-skills-title'>My skills</h1>
+            <div className='homepage-skills-content'>
+              <img src={JSLogo} class="homepage-skills-image js-logo"  alt=''></img>
+              <img src={ReactLogo} class="homepage-skills-image react-logo" alt=''></img>
+              <img src={PythonLogo} class="homepage-skills-image python-logo" alt=''></img> 
+              <img src={HTMLLogo} class="homepage-skills-image html-logo"  alt=''></img> 
+              <img src={CSSLogo} class="homepage-skills-image css-logo"  alt=''></img>
+              <img src={GithubLogo} class="homepage-skills-image github-logo"  alt=''></img>
+            </div>
+          </div>
 
-            </div> */}
-            {/* <Background/> */}
-            <p>test</p>
-            <p>test</p>
-            <p>test</p>
-            <p>test</p>
-            <p>test</p>
-            <p>test</p>
-            <p>test</p>
-            <p>test</p>
-            <p>test</p>
-            <p>test</p>
-            <p>test</p>
-            <p>test</p>
-            <p>test</p>
-            <p>test</p>
-            <p>test</p>
-            <p>test</p>
-            <p>test</p>
-            <p>test</p>
-            <p>test</p>
-            <p>test</p>
-            <p>test</p>
-            <p>test</p>
-            <p>test</p>
-            <p>test</p>
-            <p>test</p>
-            <p>test</p>
-            <p>test</p>
-            <p>test</p>
-            <p>test</p>
-            <p>test</p>
-            <p>test</p>
-            <p>test</p>
-            <p>test</p>
-            <p>test</p>
-            <p>test</p>
-            <p>test</p>
-            <p>test</p>
-            <p>test</p>
-            <p>test</p>
-            <p>test</p>
-            <p>test</p>
-            <p>test</p>
+          <div className='homepage-about-wrapper'>
+            <h1 className='large-about'>About Me</h1>
+            <hr className='about-line'></hr>
+            <div className='about-text'>
+              <p className='text-section-one'>I'm Taylor Courchaine, currently based in Winnipeg, MB. With a background in Business Information Technology from Red River College,
+                I have honed my skills in front-end development using JavaScript, jQuery, and CSS, as well as back-end integration with JSON and Git.
+                At Bold Commerce, I resolve code issues, enhance user experiences, and streamline workflows using tools like Jira and Zendesk.
+              </p>
+              
+            </div>
           </div>
           
      

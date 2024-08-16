@@ -11,7 +11,7 @@ export default class Contact extends Component {
         <>
         <Header />
         <div className='contact-container'>
-          <h1 className='contact-heading'>Get in contact with me!</h1>
+          <h1 className='contact-heading'>Contact me!</h1>
           <form action="https://formsubmit.co/tcour10@hotmail.com" className='contact-form' id="messageForm" method="POST">
             <div className='form-container'>
               <label className='contact-name'>Name:
